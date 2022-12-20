@@ -54,6 +54,18 @@ Bargaining help buyers and sellers negotiate the specifics of the deal and event
 }
 ```
 
+## Tech Stack
+
+Asp.Net, AzureTableStorage, C#
+
+## Usage/Examples
+
+```asp.net
+
+Change the Connection String of Azure Table Storage from "GenericLogic" class
+```
+
+
 
 ## License
 
