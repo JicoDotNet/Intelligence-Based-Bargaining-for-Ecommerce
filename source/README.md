@@ -8,6 +8,11 @@ Bargaining plays a very important role in the mind of the customers to get them 
 We are providing a platform where any Ecommerce app can consume this service by **REST API** and will get AI based real time Bargaining features. 
 
 
+## Get Started/Purpose
+
+Purpose of this server to serve any ecommerce the Bargain taste. 
+
+Bargaining help buyers and sellers negotiate the specifics of the deal and eventually come to an agreement. This agreement is highly necessary to build trust and increase sales at the same time. Unfortunately, online Bargaining facilities while purchasing any materials is unheard of. Moreover, a customer can find various pricing in various website/app but not be comfortable to use all of them neither its feasible to compare by going through all this API Service.
 
 ## API Reference
 
