@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/source/AIBasedRealtimeBargaining/.vs/AIBasedRealtimeBargaining
+/source/AIBasedRealtimeBargaining/AIBasedRealtimeBargaining/bin
+/source/AIBasedRealtimeBargaining/AIBasedRealtimeBargaining/obj/Debug
+/source/AIBasedRealtimeBargaining/AIBasedRealtimeBargaining/AIBasedRealtimeBargaining.csproj.user
+/source/AIBasedRealtimeBargaining/packages
