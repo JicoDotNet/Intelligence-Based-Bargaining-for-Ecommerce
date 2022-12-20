@@ -9,15 +9,6 @@ We are providing a platform where any Ecommerce app can consume this service by 
 
 
 
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-
 ## API Reference
 
 #### Get next negotiate value with massage
@@ -49,7 +40,6 @@ To deploy this project run
     "NegotiatedCost": {
       "CustomerId": 1,
       "ProductId": 1,
-      "Token": null,
       "NegotiateTime": "2022-12-20T20:58:08.9645334Z",
       "NegotiateTimeStamp": 1671569888714,
       "ProposedPrice": 12,
@@ -67,5 +57,6 @@ To deploy this project run
 
 ## Demo
 
-Insert gif or link to demo
+https://mshackathon2022bargain.azurewebsites.net/Index.html
 
+Default Token Key: `bcd6b947-24c8-4151-956b-0e58bb504e84`
