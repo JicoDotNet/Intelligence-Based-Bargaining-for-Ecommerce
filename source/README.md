@@ -19,9 +19,9 @@ Bargaining help buyers and sellers negotiate the specifics of the deal and event
 #### Get next negotiate value with massage
 
 ```http
-  GET: /api/Negotiator/Negotiate
+  POST: /api/Negotiator/Negotiate
 ```
-#### Request
+#### Request - JSON
 
 | Parameter | Type     |  Required  |Description |
 | :-------- | :------- | :---------- |:--- |
