@@ -7,6 +7,7 @@ namespace AIBasedRealtimeBargaining.Models
 {
 	public class RequestCommand
 	{
+		public string TokenKey { get; set; }
 		public string Tenant { get; set; }
 		public long CustomerId { get; set; }		
 		public long ProductId { get; set; }

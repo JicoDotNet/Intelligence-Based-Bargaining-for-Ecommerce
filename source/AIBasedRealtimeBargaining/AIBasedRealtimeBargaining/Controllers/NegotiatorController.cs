@@ -16,6 +16,10 @@ namespace AIBasedRealtimeBargaining.Controllers
         {
             try
             {
+                if(command.TokenKey != GenericLogic.DefaultToken)
+                {
+					return Ok(new ResponseCommand { IsSuccess = false, StatusCode = HttpStatusCode.Unauthorized, Message = "You are Unauthorized.", _request = command, _response = null });
+				}
                 if (command == null
                         || string.IsNullOrEmpty(command.Tenant)
                         || command.OfferPrice <= 0

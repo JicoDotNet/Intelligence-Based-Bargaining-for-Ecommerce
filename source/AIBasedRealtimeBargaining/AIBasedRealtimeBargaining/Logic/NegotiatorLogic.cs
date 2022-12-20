@@ -18,7 +18,7 @@ namespace AIBasedRealtimeBargaining.Logic
 		public NegotiatorLogic()
         {
 			RandomObj = new Random();
-			_tableManager = new ExecuteTableManager("NegotiatedCost", (object)"DefaultEndpointsProtocol=https;AccountName=hackathon2022bargain;AccountKey=+rjE1lRMT2I+wFu1pCztNOi/CBgczvn4Sx7A3tlRDEu5S0Nb3OwcK67E5ZLh+LwHKoDIgfrUUAxK+AStVhr9Fw==;EndpointSuffix=core.windows.net");
+			_tableManager = new ExecuteTableManager("NegotiatedCost", (object)GenericLogic.AzureStorageConnectionString);
         }
 
         public NegotiatedValue NextValue(RequestCommand command)
